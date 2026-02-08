@@ -1,15 +1,16 @@
 {
-	"name": "obsidian-sample-plugin",
+	"name": "github-image-uploader",
 	"version": "1.0.0",
-	"description": "This is a sample plugin for Obsidian (https://obsidian.md)",
+	"description": "Automatically uploads inserted images to a GitHub repository and injects a renderable Markdown image reference into the note.",
 	"main": "main.js",
 	"scripts": {
 		"dev": "node esbuild.config.mjs",
 		"build": "tsc -noEmit -skipLibCheck && node esbuild.config.mjs production",
-		"version": "node version-bump.mjs && git add manifest.json versions.json"
+		"version": "node version-bump.mjs && git add manifest.json versions.json",
+		"deploy": "npm run build && cp main.js manifest.json styles.css ../MyVault/.obsidian/plugins/sample-plugin/"
 	},
 	"keywords": [],
-	"author": "",
+	"author": "makepin2r",
 	"license": "MIT",
 	"devDependencies": {
 		"@types/node": "^16.11.6",

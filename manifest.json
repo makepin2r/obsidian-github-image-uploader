@@ -1,5 +1,5 @@
 {
-	"id": "obsidian-github-image-uploader",
+	"id": "github-image-uploader",
 	"name": "github-image-uploader",
 	"version": "1.0.0",
 	"minAppVersion": "0.15.0",
