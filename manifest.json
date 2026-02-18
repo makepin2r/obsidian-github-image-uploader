@@ -5,7 +5,7 @@
 	"minAppVersion": "0.15.0",
 	"description": "Automatically uploads inserted images to a GitHub repository and injects a renderable Markdown image reference into the note.",
 	"author": "makepin2r",
-	"authorUrl": "https://github.com/makepin2r/obsidian-github-image-uploader#",
-	"fundingUrl": "https://github.com/makepin2r/obsidian-github-image-uploader#",
+	"authorUrl": "https://github.com/makepin2r/obsidian-github-image-uploader",
+	"fundingUrl": "https://github.com/makepin2r/obsidian-github-image-uploader",
 	"isDesktopOnly": false
 }
