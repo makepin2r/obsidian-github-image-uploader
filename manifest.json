@@ -1,6 +1,6 @@
 {
 	"id": "github-image-uploader",
-	"name": "github-image-uploader",
+	"name": "GitHub Image Uploader",
 	"version": "1.0.0",
 	"minAppVersion": "0.15.0",
 	"description": "Automatically uploads inserted images to a GitHub repository and injects a renderable Markdown image reference into the note.",
