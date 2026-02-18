@@ -97,24 +97,7 @@ username/obsidian-images
 5. Reload Obsidian
 6. Enable the plugin in Settings → Community plugins
 
-## Setup
-
-### 1. Create a GitHub Repository
-
-Create a public GitHub repository to store your images. For example: `username/obsidian-images`
-
-### 2. Generate a GitHub Token
-
-1. Go to GitHub Settings → Developer settings → Personal access tokens → [Fine-grained tokens](https://github.com/settings/tokens?type=beta)
-2. Click "Generate new token"
-3. Configure the token:
-    - **Token name**: `Obsidian Image Uploader`
-    - **Expiration**: Choose your preferred expiration (90 days recommended)
-    - **Repository access**: Select "Only select repositories" and choose your image repository
-    - **Permissions**: Grant `Contents: Read and Write` permission
-4. Click "Generate token" and copy the token (starts with `github_pat_...`)
-
-### 3. Configure the Plugin
+### 4. Configure the Plugin
 
 1. Open Obsidian Settings → Community plugins → GitHub Image Uploader
 2. Configure the following settings:
