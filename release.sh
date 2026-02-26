@@ -36,7 +36,7 @@ echo ""
 
 # Check if required files exist
 echo "📦 Checking required files..."
-REQUIRED_FILES=("main.js" "manifest.json" "styles.css")
+REQUIRED_FILES=("main.js" "manifest.json")
 MISSING_FILES=()
 
 for file in "${REQUIRED_FILES[@]}"; do
@@ -119,7 +119,7 @@ GitHub Image Uploader for Obsidian - Automatically upload images to GitHub repos
 - ✅ Secure token storage
 
 ### Installation
-1. Download \`main.js\`, \`manifest.json\`, and \`styles.css\` from the assets below
+1. Download \`main.js\` and \`manifest.json\` from the assets below
 2. Create folder: \`<vault>/.obsidian/plugins/github-image-uploader/\`
 3. Copy the downloaded files to the folder
 4. Reload Obsidian
@@ -137,7 +137,6 @@ echo "🚀 Creating GitHub release..."
 gh release create "$VERSION" \
     main.js \
     manifest.json \
-    styles.css \
     --title "$VERSION" \
     --notes "$RELEASE_NOTES"
 
