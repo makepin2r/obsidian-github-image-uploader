@@ -7,7 +7,9 @@
 		"dev": "node esbuild.config.mjs",
 		"build": "tsc -noEmit -skipLibCheck && node esbuild.config.mjs production",
 		"version": "node version-bump.mjs && git add manifest.json versions.json",
-		"deploy": "npm run build && cp main.js manifest.json styles.css ../MyVault/.obsidian/plugins/sample-plugin/"
+		"deploy": "npm run build && cp main.js manifest.json ../MyVault/.obsidian/plugins/sample-plugin/",
+		"release": "./release.sh",
+		"release:version": "./release.sh"
 	},
 	"keywords": [],
 	"author": "makepin2r",
